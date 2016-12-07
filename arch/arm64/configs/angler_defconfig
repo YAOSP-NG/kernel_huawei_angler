@@ -5,7 +5,7 @@
 # ----------------------------------------------------------------------------------
 # Kernel name
 # ----------------------------------------------------------------------------------
-CONFIG_LOCALVERSION="-angler-YAOSP-NG-7.0.0-Yank555.lu-v1.0d"
+CONFIG_LOCALVERSION="-angler-YAOSP-NG-7.0.0-Yank555.lu-v1.0e"
 # CONFIG_LOCALVERSION_AUTO is not set
 
 # ----------------------------------------------------------------------------------
@@ -85,6 +85,11 @@ CONFIG_CPU_FREQ_GOV_CONSERVATIVE=y
 CONFIG_ZRAM_LZ4_COMPRESS=y
 CONFIG_LZ4_COMPRESS=y
 CONFIG_LZ4_DECOMPRESS=y
+
+# ----------------------------------------------------------------------------------
+# Power_efficient workqueues support
+# ----------------------------------------------------------------------------------
+CONFIG_WQ_POWER_EFFICIENT_DEFAULT=y
 
 # ----------------------------------------------------------------------------------
 #
